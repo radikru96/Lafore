@@ -12,7 +12,7 @@ Int &Int::operator= ( const Int& other)
 	return *this;
 }
 
-Int Int::operator+ ( const Int& other)
+Int Int::operator+ ( const Int& other) const
 {
 	Int retval(value+other.value);
 	return retval;

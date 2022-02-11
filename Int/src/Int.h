@@ -11,6 +11,6 @@ class Int
 		friend std::ostream& operator<< ( std::ostream& os, const Int& other);
 		friend std::istream& operator>> ( std::istream& is, Int& other);
 		Int &operator= ( const Int& other);
-		Int operator+ ( const Int& other);
+		Int operator+ ( const Int& other) const;
 };
 #endif

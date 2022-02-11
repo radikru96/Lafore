@@ -10,5 +10,9 @@ int main()
 	cout << "enter second number..\n";
 	cin >> b;
 	cout << "a = " << a << "\nb = " << b << "\na + b = c = " << (c = a + b) << endl;
+	const Int d( a + b + c);
+	cout << "a + b + c = " << d << endl;
+	c = d + d;
+	cout << "c = " << c << endl;
 	return 0;
 }
