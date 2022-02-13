@@ -1,8 +1,8 @@
-NAME = bin/time
+NAME = bin/Time
 
-SRCS =	src/main.cpp src/time.cpp
+SRCS =	src/main.cpp src/Time.cpp
 
-HEADER = src/time.h
+HEADER = src/Time.h
 
 OBJ = $(patsubst src/%.cpp, obj/%.o, $(SRCS))
 
