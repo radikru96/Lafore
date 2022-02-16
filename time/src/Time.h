@@ -6,9 +6,7 @@
 class Time
 {
 	private:
-		int h;
-		int m;
-		int s;
+		int h, m, s;
 		void verifi();
 	public:
 		Time() : h(0), m(0), s(0){}
