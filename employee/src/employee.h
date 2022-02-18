@@ -4,7 +4,7 @@
 
 class Employee {
 private:
-	unsigned int id;
+	const unsigned int id;
 	float salary;
 public:
 	unsigned int static count;
