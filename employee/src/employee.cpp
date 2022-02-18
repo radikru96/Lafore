@@ -1,11 +1,13 @@
 #include "employee.h"
 
-std::ostream& operator<< ( std::ostream& os, const employee& other)
+unsigned int Employee::count=0;
+
+std::ostream& operator<< ( std::ostream& os, const Employee& other)
 {
 	return os << "id:" << other.id << "\tsalary:" << other.salary;
 }
 
-void employee::set_salary( const float& _salary )
+void Employee::set_salary( const float& _salary )
 {
 	salary=_salary;
 }
