@@ -1,6 +1,5 @@
+#define EMPLOYEE_CPP
 #include "employee.h"
-
-unsigned int Employee::count=0;
 
 std::ostream& operator<< ( std::ostream& os, const Employee& other)
 {

@@ -6,3 +6,5 @@ time/bin/*
 time/obj/*
 employee/obj/*
 employee/bin/*
+date/bin/*
+date/obj/*
